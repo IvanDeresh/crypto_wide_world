@@ -3,7 +3,7 @@ import React from "react";
 const TheFooter = () => {
   return (
     <footer className="max-container font-montserrat max-2xl:mx-[5%]">
-      <div className="flex gap-6 mx-[5%] flex-wrap">
+      <div className="flex gap-6 mx-[5%] flex-wrap font-montserrat">
         <div className="w-[280px] gap-4 h-[300px] border-2 rounded-2xl flex flex-col justify-start items-start p-5">
           <h4 className="text-[30px]">Markets</h4>
           <div className="flex flex-col gap-3 text-[20px] cursor-pointer">

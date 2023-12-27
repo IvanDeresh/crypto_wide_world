@@ -62,7 +62,7 @@ const Hero = () => {
         <Image src={factory} alt="icon" className="rounded-2xl" />
       </div>
       <div className="mt-[200px] max-xl:ml-[27%]">
-        <div className="max-2xl:w-[85vw] w-[115%] bg-white h-[7px] rounded-full mb-[50px]"></div>
+        <div className="w-[85vw] min-[2000px]:w-[115%] bg-white h-[7px] rounded-full mb-[50px]"></div>
         <div className="flex gap-10">
           {data.map((coin) => (
             <ul key={coin.id} className="">
@@ -82,7 +82,7 @@ const Hero = () => {
             </ul>
           ))}
         </div>
-        <div className="max-2xl:w-[85vw] w-[115%] bg-white h-[7px] rounded-full mt-[50px]"></div>
+        <div className=" w-[85vw] min-[2000px]:w-[115%] bg-white h-[7px] rounded-full mt-[50px]"></div>
       </div>
     </section>
   );
